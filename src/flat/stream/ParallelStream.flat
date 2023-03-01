@@ -29,13 +29,7 @@ class<Type> {
   }
 
   public async toSet() -> HashSet<Type> {
-    let set = HashSet<Type>()
-
-    let values = Async.all(getFutures(), { _.get() }, maxParallel)
-
-    values.forEach({ set.add(_) })
-
-    return set
+    return HashSet<Type>(Async.all(getFutures(), { _.get() }, maxParallel))
   }
 
   public async toArray() -> Type[] {
