@@ -3,7 +3,7 @@ package flat/stream
 import flat/stream
 
 extension class {
-  public parallel<Type>(Stream<Type> this, Int maxParallel = 10) -> ParallelStream<Type> {
-    return ParallelStream<Type>(iterator, maxParallel)
-  }
+    public parallel<Type>(Stream<Type> this, Int maxParallel = 10) -> ParallelStream<Type> {
+        return ParallelStream<Type>(iterator, maxParallel)
+    }
 }
