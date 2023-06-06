@@ -12,22 +12,22 @@
     "main": {
       "source": "src",
       "dependencies": {
-        "github:FlatLang/Logger": "master",
-        "github:FlatLang/System": "master",
-        "github:FlatLang/IO": "master",
-        "github:FlatLang/Future": "master",
-        "github:FlatLang/Stream": "master"
+        "https://github.com/FlatLang/Logger": "master",
+        "https://github.com/FlatLang/System": "master",
+        "https://github.com/FlatLang/IO": "master",
+        "https://github.com/FlatLang/Future": "master",
+        "https://github.com/FlatLang/Stream": "master"
       }
     },
     "test": {
       "mainClass": "flat/stream/ParallelStream_TestSuite",
       "source": "src/**/*_Test*.flat",
       "dependencies": {
-        "github:FlatLang/Test": "master",
-        "github:FlatLang/Thread": "master",
-        "github:FlatLang/System": "master",
-        "github:FlatLang/IO": "master",
-        "github:FlatLang/Time": "master"
+        "https://github.com/FlatLang/Test": "master",
+        "https://github.com/FlatLang/Thread": "master",
+        "https://github.com/FlatLang/System": "master",
+        "https://github.com/FlatLang/IO": "master",
+        "https://github.com/FlatLang/Time": "master"
       }
     }
   }
